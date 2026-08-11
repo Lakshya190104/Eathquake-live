@@ -96,3 +96,8 @@ st.sidebar.info(
     Use the slider to filter earthquakes by magnitude. The times are displayed in both UTC and local time.
     """
 )
+st.title("addition")
+num1= st.number_input("enter 1st no.", value=0.0, step=1.0)
+num2= st.number_input("enter  the second number", value=0.0, step=1.0)
+total= num1+ num2
+st.success(f"the sum of **{num1}** and **{num2}** is **{total}**)
