@@ -96,6 +96,8 @@ st.sidebar.info(
     This application fetches real-time and historical earthquake data from the USGS API and visualizes it on interactive maps.
     Use the slider to filter earthquakes by magnitude. The times are displayed in both UTC and local time.
     """)
+st.sidebar.link_button("🌍 USGS Earthquake","https://earthquake.usgs.gov")
+st.link_button("📊 View Historical Data","https://earthquake.usgs.gov/earthquakes/map/")
 st.sidebar.markdown("---")
 st.sidebar.subheader("🧮 Calculator")
 num1 = st.sidebar.number_input("First Number",value=0.0)
