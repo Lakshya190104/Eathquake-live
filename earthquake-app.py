@@ -7,7 +7,7 @@ import pytz
 
 # Function to fetch earthquake data
 def fetch_earthquake_data(url):
-    response = requests.get(url)
+    response = requests.get(url) 
     data = response.json()
     
     # Parse the data
