@@ -101,7 +101,7 @@ num1 = st.sidebar.number_input("First Number",value=0.0)
 num2 = st.sidebar.number_input("Second Number",value=0.0)
 if st.sidebar.button("Calculate"):
     total = num1 + num2
-    st.sidebar.success(f"Sum = {total}")
+    st.sidebar.success(f"Sum = {total}") )
     
 
     
