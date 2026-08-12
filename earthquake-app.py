@@ -41,7 +41,7 @@ historical_earthquake_data = fetch_earthquake_data(historical_url)
 # Streamlit app layout
 st.title("Real-Time Earthquake Monitoring Webapp")
 st.markdown("This app visualizes real-time and historical earthquake data from the US Geological Survey (USGS).")
-
+page = st.radio("📌 Navigate",["Dashboard", "Real-Time Data", "Historical Data", "Calculator"],horizontal=True)
 # Filter by magnitude
 min_magnitude = st.slider("Minimum Magnitude", min_value=0.0, max_value=10.0, value=1.0, step=0.1)
 filtered_realtime_data = realtime_earthquake_data[realtime_earthquake_data["magnitude"] >= min_magnitude]
