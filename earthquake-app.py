@@ -29,7 +29,7 @@ def fetch_earthquake_data(url):
     
     return pd.DataFrame(earthquakes)
 
-st.image("https://www.google.com/search?q=globe+images&rlz=1C1GCEA_enIN1217IN1219&oq=globe+image&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU1OThqMGo3qAIIsAIB8QWENPdms910Zw&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSZxowKg5PVGV0Z1RyYWl5VWtTTTIOT1RldGdUcmFpeVVrU006DlZKUFl2SVNfQ19nQ2FNIAQqLwobX3p3TjhhckxpR3JlUW5lc1A0b0tpeUE4XzQ4Eg5PVGV0Z1RyYWl5VWtTTRgAMAEYByDyxMfkCEoIEAEYASABKAE" width= 100)
+st.image("https://www.google.com/search?q=globe+images&rlz=1C1GCEA_enIN1217IN1219&oq=globe+image&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU1OThqMGo3qAIIsAIB8QWENPdms910Zw&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSZxowKg5PVGV0Z1RyYWl5VWtTTTIOT1RldGdUcmFpeVVrU006DlZKUFl2SVNfQ19nQ2FNIAQqLwobX3p3TjhhckxpR3JlUW5lc1A0b0tpeUE4XzQ4Eg5PVGV0Z1RyYWl5VWtTTRgAMAEYByDyxMfkCEoIEAEYASABKAE", width= 100)
 
 # Fetch real-time earthquake data
 realtime_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
